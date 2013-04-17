@@ -1,0 +1,4 @@
+To make a boot.img use the below command:
+
+
+./mkbootimg  --cmdline 'console=ttyHSL0,115200,n8 androidboot.hardware=qcom' --kernel zImage --ramdisk boot.img-ramdisk.gz --base 80400000 --ramdiskaddr 81800000 -o out/boot.img
